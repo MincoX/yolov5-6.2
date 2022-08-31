@@ -1,0 +1,9 @@
+#path: /hy-tmp/helmet_license  # dataset root dir
+path: E:\datas\py\datasets\helmet_license  # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: valid/images  # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# 0: no_helmet; 1: have_helmet; 2: license; 3: rider
+nc: 4  # number of classes
+names: [ '0', '1', '2', '3' ]  # class names
